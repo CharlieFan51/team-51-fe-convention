@@ -85,3 +85,5 @@ const myFunc = (arg) => {
 }
 // bad
 ```
+
+[Back to Content](../README.md)

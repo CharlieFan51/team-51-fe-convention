@@ -54,3 +54,5 @@ myFucn();
 import myFunc from 'some/package/myFunc';
 myFunc();
 ```
+
+[Back to Content](../README.md)
