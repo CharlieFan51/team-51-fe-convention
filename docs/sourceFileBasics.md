@@ -42,6 +42,7 @@ const someName = require('package/path/myModule.js');
 ```
 
 ### 2.4 JavaScript Modules implementation
+
 依赖引入和具体调用之间必须有一行空行, e.g:
 
 ```js
