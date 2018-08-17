@@ -211,7 +211,7 @@ class MyClass extends BaseClass {
 // 单行
 ```
 
-### -函数和方法都需要加上注释
+### Functions or Mehtods都需要加上注释
 
 ```js
 /**
