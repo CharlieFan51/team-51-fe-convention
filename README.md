@@ -3,11 +3,11 @@
 
 ## Content
 
-1. [Introduction](#1.Introduction)
-2. [Source file basics](#2.Source-file-basics)
-3. [Formatting](#3.Formatting)
-4. [Naming](#4.Naming)
-5. [Commment](#5.Comment)
+1. [Introduction](#1Introduction)
+2. [Source file basics](#2Source-file-basics)
+3. [Formatting](#3Formatting)
+4. [Naming](#4Naming)
+5. [Commment](#5Comment)
 
 
 ## 1.Introduction
