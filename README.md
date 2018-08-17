@@ -8,6 +8,7 @@
 3. [Formatting](#3formatting)
 4. [Naming](#4naming)
 5. [Commment](#5comment)
+6. [Lint Tools](#6lint-tools)
 
 
 ## 1.Introduction
@@ -41,7 +42,7 @@
     ```
 - Vue: *camelCase.vue*
 
-### 2.2 Filte encoding: UTF-8
+### 2.2 File encoding: UTF-8
 
 ### 2.3 JavaScript Modules
 - 优先使用ES6 Module: ```import``` / ```export```
@@ -76,7 +77,7 @@ import myFunc from 'some/package/myFunc';
 myFunc();
 ```
 
-[Back to Content](#Content)
+[Back to Content](#content)
 
 ## 3.Formatting
 JavaScript代码格式为airbnb规范基础上自定义版本
@@ -166,7 +167,7 @@ const myFunc = (arg) => {
 // bad
 ```
 
-[Back to Content](#Content)
+[Back to Content](#content)
 
 ## 4.Naming
 
@@ -198,9 +199,10 @@ class MyClass extends BaseClass {
 }
 ```
 
-[Back to Content](#Content)
+[Back to Content](#content)
 
 ## 5.Comment
+
 ```js
 /**
  * 多行
@@ -208,6 +210,7 @@ class MyClass extends BaseClass {
 
 // 单行
 ```
+
 ### 函数和方法都需要加上注释
 
 ```js
@@ -221,4 +224,16 @@ function Book(title, author) {
 }
 ```
 
-[Back to Content](#Content)
+[Back to Content](#content)
+
+## 6.Lint Tools
+
+为了帮助代码风格规范化，我们使用了一些规范化工具:
+- 编辑器配置: editorconfig
+- Ecma标准代码规范: eslint
+- 自动格式化: prettier
+- css代码规范: stylelint
+
+可在src目录中下载配置文件
+
+
