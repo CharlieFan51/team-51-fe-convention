@@ -8,7 +8,7 @@
 
 ## 1.General Formatting Rules
 
-### 1.1 Indentation
+### 1.1 Indentation
 
 使用 2-space 缩进
 
@@ -73,7 +73,7 @@ div.error {
 }
 ```
 
-P.S 在SPA中不要使用id selector rule, 因为SPA通常id是react/vue的插入点
+P.S 在SPA中不要使用id selector rule, 因为SPA通常id是react/vue的插入点
 
 ### 2.3 Shorthand Properties
 
@@ -102,7 +102,7 @@ margin: 0 0.5rem;
 
 ### 2.4 ID and Class Name Delimiters:
 
-多词组的 id 或 class名使用`-`分开, e.g.
+多词组的 id 或 class名使用`-`分开, e.g.
 
 ```css
 /** bad */
