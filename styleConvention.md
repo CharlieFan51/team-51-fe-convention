@@ -1,6 +1,7 @@
 # 51.CA CSS code style:
 
 ## Index:
+
 - [1.General Formatting Rules](#1general-formatting-rules)
 - [2.Coding Style Rules](#2coding-style-rules)
 - [3.Comments](#3comments)
@@ -72,7 +73,7 @@ div.error {
 }
 ```
 
-p.s 在 SPA 中不要使用 id selector rule, 因为 SPA 通常 id 是 react/vue 的插入点
+p.s 在 SPA 中不要使用 id selector rule, 因为 SPA 通常 id 是 react/vue 的插入点
 
 ### 2.3 Shorthand Properties
 
@@ -89,9 +90,9 @@ margin-bottom: 1rem;
 margin: 0 2rem 1rem 1rem;
 ```
 
-### 2.3 value 0 and Units
+### 2.3 Value 0 and Units
 
-值为 0 的属性可以不带单位，小数点  前的 0 可以省略, e.g.
+值为 0 的属性可以不带单位, 小数点前的 0 可以省略, e.g.
 
 ```css
 font-size: 0.625rem;
@@ -101,7 +102,7 @@ margin: 0 0.5rem;
 
 ### 2.4 ID and Class Name Delimiters:
 
-多词组的 id 或 class 名使用 `-` 分开, e.g.
+多词组的 id 或 class 名使用`-`分开, e.g.
 
 ```css
 /** bad */
@@ -118,16 +119,16 @@ margin: 0 0.5rem;
 
 ### 2.5 Semicolon:
 
-`;`分号不可省略,即便是block最后一句声明也不可以
+`;`分号不可省略,即便是 block 最后一句声明也不可以
 
-### 2.6 Property赋值:
+### 2.6 Property 赋值:
 
-声明property值时冒号后面必须加空格
+声明 property 值时冒号后面必须加空格
 
 ```css
 /** bad */
 h3 {
-  font-size:12px;
+  font-size: 12px;
 }
 
 /** good */
@@ -138,14 +139,14 @@ h3 {
 
 ### 2.7 Declare Block Separation:
 
-声明块和selector之间要有空格，块与块之间有一行空行, e.g.
+声明块和 selector 之间要有空格，块与块之间有一行空行, e.g.
 
 ```css
 /** bad */
-.main-content{
+.main-content {
   width: 100%;
 }
-.main-content h3{
+.main-content h3 {
   color: #2aaeff;
 }
 
@@ -161,11 +162,13 @@ h3 {
 
 ### 2.8 Selector Separation
 
-多个selector使用同一套css，selector需要换行
+多个 selector 使用同一套 css, selector 需要换行
 
 ```css
 /** bad */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #2aaeff;
 }
 
@@ -188,7 +191,7 @@ h3 {
 
 ```css
 /** bad */
-@import url("https://url/to/some/css.css");
+@import url('https://url/to/some/css.css');
 
 html {
   font-family: 'Roboto';
@@ -198,17 +201,16 @@ html {
 @import url(https://url/to/some/css.css);
 
 html {
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 ```
 
-
 ### 2.10 Declaration Order:
 
-声明顺序总体思路为：显示->尺寸->背景->颜色->字体:
+声明顺序总体思路为：显示->尺寸->背景->颜色->字体:
 
+具体顺序自上而下按照如下配置, 由 stylelint 进行规范化：
 
-具体顺序自上而下按照如下配置，由stylelint进行规范化：
 ```js
 [
   'display',
@@ -280,15 +282,17 @@ html {
 ```
 
 ### 3.Comments
-推荐每一个模块都写上注释标记样式用途，以便维护
-注释与css之间留有一行空行，e.g
+
+推荐每一个模块都写上注释标记样式用途，以便维护注释与 css 之间留有一行空行，e.g
 
 ```css
 /* Header styles here: */
 
-.general-header {}
+.general-header {
+}
 
 /* Footer styles here */
 
-.foot-51 {}
+.foot-51 {
+}
 ```
