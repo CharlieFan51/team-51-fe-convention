@@ -244,9 +244,9 @@ function Book(title, author) {}
 
 为了帮助代码风格规范化，我们使用了一些规范化工具:
 
-- 编辑器  配置: editorconfig
-- Ecma 标准代码规范: eslint
-- 自动  格式化: prettier
-- css 代码规范: stylelint
+- 编辑器配置: editorconfig
+- Ecma标准代码规范: eslint
+- 自动格式化: prettier
+- css代码规范: stylelint
 
 可在 src 目录中下载配置文件
