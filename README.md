@@ -4,12 +4,16 @@
 
 ## Content
 
+I. JavaScript Convention
+
 1. [Introduction](#1introduction)
 2. [Source file basics](#2source-file-basics)
 3. [Formatting](#3formatting)
 4. [Naming](#4naming)
 5. [Commment](#5comment)
 6. [Lint Tools](#6lint-tools)
+
+II. [Styles Convention](styleConvention.md)
 
 ## 1.Introduction
 
