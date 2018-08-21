@@ -69,7 +69,7 @@ const someName = require('package/path/myModule.js');
 
 ### 2.4 JavaScript Modules implementation
 
-依赖引入和具体调用  之间必须有一行空行, e.g:
+依赖引入和具体调用之间必须有一行空行, e.g:
 
 ```js
 // good:
@@ -86,7 +86,7 @@ myFunc();
 
 ## 3.Formatting
 
-JavaScript 代码格式为 airbnb 规范  基础上自定义版本
+JavaScript代码格式为airbnb规范基础上自定义版本
 
 ### 3.1 缩进及空格
 
@@ -96,8 +96,8 @@ JavaScript 代码格式为 airbnb 规范  基础上自定义版本
 
 #### 3.1.2 操作符空格
 
-- 单目运算符  不加空格
-- 双目运算符  以及赋值  操作符  左右各需空格
+- 单目运算符不加空格
+- 双目运算符以及赋值操作符左右各需空格
 
 ```js
 // good:
@@ -120,7 +120,7 @@ const myStr = 'some string';
 
 #### 3.2.2 字符串拼接
 
-优先使用 es6 string template
+优先使用es6的string template
 
 ```js
 const myStr1 = 'string1';
@@ -140,7 +140,7 @@ const myStr1 = 'string1';
 
 ### 3.4 变量声明
 
-必须使用 ES6 标准的声明, 不使用`var`
+必须使用ES6标准的声明, 不使用`var`
 
 ```js
 // good:
