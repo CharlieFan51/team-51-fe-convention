@@ -88,7 +88,7 @@ margin: 0 2rem 1rem 1rem;
 
 ### 2.3 Value 0 and Units
 
-值为 0 的属性可以不带单位, 小数点前的 0 可以省略, e.g.
+值为 0 的属性可以不带单位, 小数点前的 0 不可以省略, e.g.
 
 ```css
 font-size: 0.625rem;
