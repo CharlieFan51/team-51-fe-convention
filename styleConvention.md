@@ -36,7 +36,7 @@ body {
 
 ### 2.1 ID & Class Naming
 
-使用有意义的命名, 最好是能体现出 id / class 的使用目的，模块 ，或者父子关系等具有较强可阅读性的名称
+使用有意义的命名, 最好是能体现出 id / class 的使用目的, 模块, 或者父子关系等具有较强可阅读性的名称
 e.g.
 
 ```css
@@ -73,11 +73,11 @@ div.error {
 }
 ```
 
-p.s 在 SPA 中不要使用 id selector rule, 因为 SPA 通常 id 是 react/vue 的插入点
+P.S 在SPA中不要使用id selector rule, 因为SPA通常id是react/vue的插入点
 
 ### 2.3 Shorthand Properties
 
-优先使用 shorthand properties 因为  可以增加可读性，同时减少代码行数，e.g.
+优先使用 shorthand properties 因为可以增加可读性,同时减少代码行数,e.g.
 
 ```css
 /** bad */
@@ -102,7 +102,7 @@ margin: 0 0.5rem;
 
 ### 2.4 ID and Class Name Delimiters:
 
-多词组的 id 或 class 名使用`-`分开, e.g.
+多词组的 id 或 class名使用`-`分开, e.g.
 
 ```css
 /** bad */
@@ -139,7 +139,7 @@ h3 {
 
 ### 2.7 Declare Block Separation:
 
-声明块和 selector 之间要有空格，块与块之间有一行空行, e.g.
+声明块和 selector 之间要有空格,块与块之间有一行空行, e.g.
 
 ```css
 /** bad */
@@ -283,7 +283,7 @@ html {
 
 ### 3.Comments
 
-推荐每一个模块都写上注释标记样式用途，以便维护注释与 css 之间留有一行空行，e.g
+推荐每一个模块都写上注释标记样式用途,以便维护注释与 css 之间留有一行空行,e.g
 
 ```css
 /* Header styles here: */
