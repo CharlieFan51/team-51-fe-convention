@@ -48,15 +48,13 @@ e.g.
 }
 
 /** good */
-#app-root {
-}
-#gallery {
-}
+#app-root {}
 
-.clear-fix {
-}
-.news-box {
-}
+#gallery {}
+
+.clear-fix {}
+
+.news-box {}
 ```
 
 ### 2.2 Type Selectors
@@ -65,12 +63,10 @@ e.g.
 
 ```css
 /** bad */
-div.error {
-}
+div.error {}
 
 /** good */
-.error {
-}
+.error {}
 ```
 
 P.S 在SPA中不要使用id selector rule, 因为SPA通常id是react/vue的插入点
@@ -106,15 +102,12 @@ margin: 0 0.5rem;
 
 ```css
 /** bad */
-.demobutton {
-}
+.demobutton {}
 
 /** good */
-.demo-button {
-}
+.demo-button {}
 
-#app-root {
-}
+#app-root {}
 ```
 
 ### 2.5 Semicolon:
