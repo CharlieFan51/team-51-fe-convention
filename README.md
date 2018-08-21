@@ -112,7 +112,7 @@ const someThing = shouldDo ? shouldDo : null;
 
 #### 3.2.1 引号
 
-字符串一般情况必须使用  单引号
+字符串一般情况必须使用单引号
 
 ```js
 const myStr = 'some string';
