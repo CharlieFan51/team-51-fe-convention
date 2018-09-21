@@ -300,7 +300,7 @@ h1 {
   color: #ffffff;
 }
 
-/* bad *
+/* bad */
 h1 {
   color: #fff;
 }
