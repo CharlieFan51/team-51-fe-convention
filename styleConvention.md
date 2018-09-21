@@ -289,3 +289,23 @@ html {
 .foot-51 {
 }
 ```
+
+### 4. Color
+
+颜色值都写全，且必须是小写
+
+```css
+/* good */
+h1 {
+  color: #ffffff;
+}
+
+/* bad *
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #FFFFFF;
+}
+```
